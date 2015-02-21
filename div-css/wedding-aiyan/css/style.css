@@ -1,0 +1,32 @@
+@charset "gb2312";
+body {background: url(../images/bg_body.jpg) center top no-repeat #f5dae3; text-align: center; margin: 0; padding: 0;}
+dl, dd, dt, ul,li,p, h1,h2,h3,h4 {margin: 0; padding: 0;}
+h1,h2,h3,h4 {font-weight: 400;}
+#container {width: 1041px; text-align: left; margin: 0 auto;}
+#header {background: url(../images/bg_header.jpg) ; height: 120px;}
+#content{background: url(../images/bg_content.jpg) ; height: 580px;}
+#footer {background: url(../images/bg_footer.jpg) ; height: 155px;}
+#nav { height: 40px; padding-top:50px;}
+#nav ul {height: 40px; width: 960px; margin-left:80px;}
+#nav li {float: left; list-style: none; line-height: 40px;}
+#nav li a{display: block; color: white; text-decoration: none; font-size: 18px; padding: 0 26px; font-family: "Î¢ÈíÑÅºÚ"; }
+#nav li a:hover{ color: #4a2b16}
+#copy {color: white;  text-align: center; padding-top: 30px; line-height: 40px; font-size: 12px;}
+#support {color: #ea688c; text-align: center; padding-top: 20px; font-size:12px;}
+
+#content .bar { height: 117px; width: 679px; background: url(../images/bg_bar.jpg); margin-left:181px;}
+#content .banner {background: url(../images/bg_wrap.jpg); height: 300px; width: 680px; margin-left:180px; margin-top:10px;}
+#content .banner img {width: 660px; height: 280px; margin-left: 8px; margin-top: 8px; border: 0;}
+#content .i_left, #content .i_right{ float: left; font-size: 12px; padding-top: 5px;}
+#content .i_left h3, #content .i_right h3 {font-size: 18px; color: #ea688c; font-family: "Î¢ÈíÑÅºÚ"; }
+#content .i_left dl, #content .i_left ul {color: #ea688c;}
+#content .i_left {padding-left: 200px; width: 220px;}
+#content .i_left dt {width: 40px; float: left; }
+#content .i_left dd {margin-left: 40px; line-height: 16px;}
+#content .i_right li {line-height: 20px; width: 320px; list-style: none;}
+#content .i_right li span {float: right;}
+#content .i_right a { text-decoration: none;color: #ea688c;}
+#content .split {background: url(../images/spilt.gif) center center no-repeat; float: left; width:80px; height: 110px;}
+#content .page{ width: 660px;padding-top: 60px; margin-left:200px; font-size: 12px; line-height: 24px; color:#333 }
+#content .article {overflow: auto;height:460px;}
+#content .article p {margin-bottom: 20px;}

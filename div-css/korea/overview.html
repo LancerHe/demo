@@ -1,0 +1,188 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Header</title>
+<link rel="stylesheet" type="text/css" href="css/layout.css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<!--[if lt IE 7]>
+	<script src="js/DD_belatedPNG.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    DD_belatedPNG.fix('.png_bg');
+    </script>
+<![endif]-->
+</head>
+
+<body>
+<div class="w1024">
+	<div id="header" class="png_bg">
+    	<div class="top png_bg">
+        	<a class="sitemap_main" href="javascript:"></a>
+    		<div class="topLink">
+            	<span class="png_bg"><a class="home" href="javascript:">HOME</a> : <a class="contact" href="javascript:">CONTACT US</a></span>
+                <a href="javascript:" class="login png_bg">Login</a>
+                <a href="javascript:" class="qna png_bg">Q&amp;A</a>
+                <a href="javascript:" class="sitemap png_bg">Site Map</a>
+            </div>
+        </div>
+        <div class="logo png_bg"></div>
+        <div class="navigation png_bg">
+            <ul class="main">
+                <li class="f16"><a href="javascript:">公司信息</a></li>
+                <li class="spilt">|</li>
+                <li class="main_li" li="0"><a href="javascript:">产品信息</a><div class="icon png_bg" style="display:block;"></div></li>
+                <li class="spilt">|</li>
+                <li class="main_li" li="1"><a href="javascript:">客户信息</a><div class="icon png_bg"></div></li>
+                <li class="spilt">|</li>
+                <li class="main_li" li="2"><a href="javascript:">安全借鉴</a><div class="icon png_bg"></div></li>
+                <li class="spilt">|</li>
+                <li class="main_li" li="3"><a href="javascript:">合作交流</a><div class="icon png_bg"></div></li>
+            </ul>
+            <ul class="sub" style="display:block;">
+            	<li><a href="javascript:">产品信息</a></li>
+                <li><a href="javascript:">产品信息</a></li>
+                <li><a href="javascript:">产品信息</a></li>
+                <li><a href="javascript:">产品信息</a></li>
+                <li><a href="javascript:">产品信息</a></li>
+            </ul>
+            <ul class="sub">
+            	<li><a href="javascript:">客户信息</a></li>
+                <li><a href="javascript:">客户信息</a></li>
+                <li><a href="javascript:">客户信息</a></li>
+                <li><a href="javascript:">客户信息</a></li>
+                <li><a href="javascript:">客户信息</a></li>
+            </ul>
+            <ul class="sub">
+            	<li><a href="javascript:">安全借鉴</a></li>
+                <li><a href="javascript:">安全借鉴</a></li>
+                <li><a href="javascript:">安全借鉴</a></li>
+                <li><a href="javascript:">安全借鉴</a></li>
+                <li><a href="javascript:">安全借鉴</a></li>
+            </ul>
+            <ul class="sub">
+            	<li><a href="javascript:">合作交流</a></li>
+                <li><a href="javascript:">合作交流</a></li>
+                <li><a href="javascript:">合作交流</a></li>
+                <li><a href="javascript:">合作交流</a></li>
+                <li><a href="javascript:">合作交流</a></li>
+            </ul>
+        </div>
+
+        <div class="clear"></div>
+  	</div>
+</div>
+<script type="text/javascript">
+$("#header .main_li").hover(function() {
+	index = $(this).attr('li');
+	$icon = $(this).find('.icon');
+	$sub  = $(".navigation").find('.sub').eq(index);
+	if ($sub.is(":visible") == true)
+		return;
+	$(".navigation").find(".sub:visible").hide();
+	$(".main").find('.icon:visible').hide();
+	$icon.show();
+	$sub.show();
+});
+</script>
+
+<div class="w1024">
+	<div id="indexLeft">
+    	<img src="images/banner.jpg" width="650" height="500" />
+    </div>
+	<div id="indexRight">
+    	<div class="list">
+        	<div class="tab_w">
+            	<div class="more png_bg"><a href="#">more</a></div>
+            	<div class="tab active png_bg">news</div>
+                <div class="tab png_bg">notices</div>
+            </div>
+            <div class="panel-w">
+            	<div class="panel" style="display:block;">
+                	<div class="li"><span class="time">2012.05.14</span><span class="title">测试列新闻1</span></div>
+                    <div class="li even"><span class="time">2012.03.14</span><span class="title">测试列新闻12</span></div>
+                    <div class="li"><span class="time">2012.02.14</span><span class="title">测试列新闻13</span></div>
+                </div>
+                <div class="panel">
+                	<div class="li"><span class="time">2012.05.14</span><span class="title">测试列公告公告1</span></div>
+                    <div class="li even"><span class="time">2012.03.14</span><span class="title">测试列公告公告12</span></div>
+                    <div class="li"><span class="time">2012.02.14</span><span class="title">测试列公告公告公告13</span></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll">
+        	<h4><font color="red">NEW</font> PRODUCT</h4>
+        	<div id="slides">
+                <div class="slides_container">
+                    <a href="#" target="_blank"><img src="images/slide-1.jpg" width="285" height="95" /></a>
+                    <a href="#" target="_blank"><img src="images/slide-2.jpg" width="285" height="95" /></a>
+                    <a href="#" target="_blank"><img src="images/slide-3.jpg" width="285" height="95" /></a>
+                </div>
+                <a href="#" class="prev png_bg"></a>
+                <a href="#" class="next png_bg"></a>
+            </div>
+        </div>
+        
+        <div class="vision">
+        	<div class="p">
+                <h4>COMPANY <font color="red">VISION</font></h4>
+                <p>测试测试测试测试测试测试测试测试测试测试测试测试测试测试测</p>
+            </div>
+            <div class="i png_bg"></div>
+        </div>
+        
+        <div class="histroy">
+        	<h4>HISTROY</h4>
+            <div class="i png_bg"></div>
+            <div class="p"><p>测试测试测试测试测试测试测试测试测试测试测试测试测试测试测</p>
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+
+
+<div class="w1024">
+    <div id="footer" class="png_bg">
+    	<div class="copy">
+        	<p>福州市鼓楼区软件大道A区401市 <strong>TEL : 010-3446-8622  /  FAQ : 020-123-4567</strong><br />
+            COPYRIGHT (C) 2009 VITAMIND. ALL RIGHTS RESERVED</p>
+        </div>
+        <div class="button png_bg">
+        	<a class="btn1" href="javascrip:">访问</a>
+            <a class="btn2" href="javascrip:">联系我们</a>
+        </div>
+        <div class="siteLink">
+        	<div class="lang_info png_bg">Family site</div>
+            <div class="lang_box png_bg">
+            	<select id="site-language">
+                	<option>AAA</option>
+                    <option>BBB</option>
+                    <option>CCC</option>
+                </select>
+            </div>
+            <div class="lang_go png_bg"></div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery.crTab.js"></script>
+<script type="text/javascript" src="js/jquery.czCombobox.min.js"></script>
+<script type="text/javascript" src="js/jquery.slides.js"></script>
+<script type="text/javascript">
+var tab = new $.fn.crTab({
+	tabList     : ".tab_w .tab",
+	contentList : ".panel-w .panel",
+	tabActiveCls: 'active',
+	eventType   : 'click'
+});
+$('#slides').slides({
+	preload: true,
+	preloadImage: 'img/loading.gif',
+	play: 5000,
+	pause: 2500,
+	hoverPause: true
+});
+$("#site-language").czCombobox({className: 'czSite'});
+</script>
+</body>
+</html>

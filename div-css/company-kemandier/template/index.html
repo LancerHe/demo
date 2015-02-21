@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>Title</title>
+<link rel="stylesheet" href="../css/style.css" />
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/jquery.slides.js"></script>
+</head>
+
+<body>
+<div class="header">
+	<div class="logo pull-left"></div>
+    <div class="search pull-left">
+    	<form method="get">
+    	<input type="text" name="keywords" class="txt pull-left" />
+        <input type="submit" class="btn pull-left" value="search" />
+        </form>
+    </div>
+    <div class="main-nav pull-left">
+    	<ul>
+            <li><a href="#">首页</a></li>
+            <li><a href="#">公司简介</a></li>
+            <li><a href="#">产品介绍</a></li>
+            <li><a href="#">解决方案</a></li>
+            <li><a href="#">成功案例</a></li>
+            <li><a href="#">联系我们</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="flash-banner">
+	<div id="slides">
+        <div class="slides_container">
+            <a href="#" target="_blank"><img src="../images/banner-1.jpg" /></a>
+            <a href="#" target="_blank"><img src="../images/banner-2.jpg" /></a>
+            <a href="#" target="_blank"><img src="../images/banner-3.jpg" /></a>
+        </div>
+        <ul class="pagination">
+        	<li><a href="#"><img src="../images/banner-thumb-1.jpg" /></a></li>
+            <li><a href="#"><img src="../images/banner-thumb-2.jpg" /></a></li>
+            <li><a href="#"><img src="../images/banner-thumb-3.jpg" /></a></li>
+        </ul>
+    </div>
+    <div class="latest-new">
+    	<p><a href="#">新闻中心：GPS导航系统基本原理</a></p>
+    </div>
+</div>
+
+<div class="index-col">
+    <div class="pull-left col col-first">
+        <div class="case">
+        	<h2>共建智能化交通</h2>
+            <p>为交通参与者提供多样性的服务</p>
+        </div>
+    </div>
+    <div class="pull-left col col-middle">
+        <div class="case">
+        	<h2>优秀的行业解决</h2>
+            <p>交通信息的广泛应用与服务</p>
+        </div>
+    </div>
+    <div class="pull-left col col-last">
+        <div class="case">
+        	<h2>随时随地掌握汽车动态</h2>
+            <p>提高既有交通设施的运行效率</p>
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+
+<div class="footer">
+	<p>陕 ICP备3523656443号</p>
+</div>
+<script type="text/javascript">
+$('.latest-new').css('opacity', .8);
+$('#slides').slides({
+	generateNextPrev:false,
+	effect: 'slide, fade',
+	generatePagination:false,
+	play: 5000,
+	pause: 2500,
+	hoverPause: true
+});
+</script>
+</body>
+</html>

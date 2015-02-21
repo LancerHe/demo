@@ -1,0 +1,656 @@
+html, body, div, span, object, iframe,em, img,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table,tr, th, td,video,a,p{
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+}
+body{
+	font-family:Arial,"宋体";
+    color:#666666;
+}
+a{
+	color:#333333;
+	text-decoration:none;
+}
+ul{
+	list-style:none outside none;
+}
+a:hover,a.acti{
+	color:#087828;
+}
+.light{
+	color:#087828;
+}
+.light2{
+	color:#ff6600;
+}
+.bold{
+	font-weight:bold;
+}
+.wrapper{
+    margin: 0px auto;
+    width: 1000px;
+    position: relative;
+}
+.page .wrapper,.page2 .wrapper{
+    overflow:hidden;
+}
+.page{
+	background: url("bg.jpg") no-repeat scroll center top;
+}
+.page2{
+	background: url("bg2.jpg") no-repeat scroll center top;
+}
+.header{
+	background: url("header.gif") no-repeat scroll center top;
+    height: 100px;
+    top: 0;
+    left: 0;
+    position: fixed;
+    _position: absolute;
+    z-index: 299;
+    width:100%;
+}
+.header .headlink {
+    left: 297px;
+    position: absolute;
+    top: 45px;
+}
+.header .headlink a{
+	float:left;
+	width:80px;
+	display:block;
+	font-size:15px;
+	padding-bottom:20px;
+}
+.header .headlink a.contact{
+	margin-left:27px;
+}
+.header .headlink2 {
+    left: 836px;
+    position: absolute;
+    top: 45px;
+}
+.header .headlink2 a {
+    display: block;
+    float: left;
+    padding-bottom: 30px;
+    width: 70px;
+}
+.scrn1{
+	padding-top:100px;
+	height:500px;
+    position: relative;
+    width: 1000px;
+}
+.scrn2{
+	height:425px;
+    position: relative;
+    width: 1000px;
+}
+.scrn2 a.qq{
+    display: block;
+    height: 65px;
+    left: 760px;
+    position: absolute;
+    top: 25px;
+    width: 200px;
+}
+.scrn2 a.wuxin{
+    display: block;
+    height: 65px;
+    left: 460px;
+    position: absolute;
+    top: 20px;
+    width: 200px;
+}
+.scrn2 .desc {
+    display: block;
+    font-size: 12px;
+    height: 200px;
+    left: 17px;
+    line-height: 24px;
+    position: absolute;
+    top: 120px;
+    width: 415px;
+}
+.scrn2 a.ads {
+    display: block;
+    left: 0;
+    position: absolute;
+    top: 334px;
+    width: 1000px;
+    padding-bottom:81px;
+}
+.scrn3{
+	height:540px;
+    position: relative;
+    width: 1000px;
+}
+.scrn3 .condition{
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 1000px;
+}
+.scrn3 .condition li{
+    float: left;
+    font-size: 12px;
+    height: 171px;
+    line-height: 24px;
+    margin-left: 48px;
+    margin-right: 17px;
+    margin-top: 89px;
+    overflow: hidden;
+    width: 180px;
+    _margin-left:24px;
+    _margin-right:40px;
+}
+.scrn4{
+	height:670px;
+    position: relative;
+    width: 1000px;
+}
+.scrn4 .who {
+    left: 80px;
+    position: absolute;
+    top: 129px;
+    width: 530px;
+    height: 185px;
+}
+.scrn4 .who li {
+    display: block;
+    float: left;
+    font-size: 12px;
+    height: 25px;
+    line-height: 28px;
+    overflow: hidden;
+    width: 260px;
+}
+.scrn4 .who li.long {
+    width: 520px;
+}
+.scrn4 .cfm {
+    height: 100px;
+    left: 660px;
+    position: absolute;
+    top: 570px;
+    width: 330px;
+}
+.scrn4 .cfm li {
+    display: block;
+    float: left;
+    font-size: 12px;
+    height: 25px;
+    overflow: hidden;
+    width: 160px;
+    height: 90px;
+}
+.scrn4 .cfm li a{
+    display: block;
+    height: 54px;
+    width: 72px;
+    margin-left: 10px;
+    margin-top: 10px;
+    float:left;
+}
+.scrn4 .cfm li .cn {
+    color: #000000;
+    float: left;
+    line-height: 18px;
+    margin-left: 2px;
+    margin-top: 12px;
+    width: 72px;
+}
+.scrn4 .cfm li .en {
+    color: #000000;
+    line-height: 18px;
+    margin-left: 10px;
+}
+.scrn4 .cfm li a.ln2 {
+    margin-left: 4px;
+    margin-top: 10px;
+    width: 86px;
+}
+.scrn4 .cfm li .cn2 {
+    color: #000000;
+    float: left;
+    line-height: 18px;
+    margin-left: 6px;
+    margin-top: 14px;
+    width: 60px;
+}
+.scrn4 .cfm li .en2 {
+    color: #000000;
+    line-height: 18px;
+    margin-left: 6px;
+    margin-top: 2px;
+}
+.scrn5{
+	height:1000px;
+    position: relative;
+    width: 1000px;
+}
+.scrn5 .effect{
+    left: 0px;
+    position: absolute;
+    top: 100px;
+    width: 1000px;
+}
+.scrn5 .effect li {
+    color: #000000;
+    float: left;
+    font-size: 12px;
+    height: 64px;
+    line-height: 18px;
+    margin-left: 152px;
+    margin-right: 28px;
+    margin-top: 46px;
+    overflow: hidden;
+    width: 290px;
+    _margin-left: 80px;
+    _margin-right: 90px;
+}
+.scrn6 {
+    height: 1540px;
+    position: relative;
+    width: 1000px;
+}
+.scrn6 .sp1 {
+    display:block;
+    font-size: 12px;
+    height: 50px;
+    left: 32px;
+    line-height: 24px;
+    position: absolute;
+    top: 54px;
+    width: 940px;
+}
+.scrn6 .sp2 {
+    font-size: 12px;
+    height: 87px;
+    left: 227px;
+    line-height: 24px;
+    position: absolute;
+    top: 393px;
+    width: 685px;
+}
+.scrn6 .sp3{
+    font-size: 12px;
+    height: 87px;
+    left: 47px;
+    line-height: 24px;
+    position: absolute;
+    top: 553px;
+    width: 685px;
+}
+.scrn6 .sp4{
+    font-size: 12px;
+    height: 87px;
+    left: 228px;
+    line-height: 24px;
+    position: absolute;
+    top: 721px;
+    width: 685px;
+}
+.scrn6 .sp5 {
+    font-size: 12px;
+    height: 87px;
+    left: 258px;
+    line-height: 24px;
+    position: absolute;
+    top: 991px;
+    width: 685px;
+}
+.scrn6 .sp6{
+    font-size: 12px;
+    height: 87px;
+    left: 258px;
+    line-height: 24px;
+    position: absolute;
+    top: 1101px;
+    width: 685px;
+}
+.scrn6 .sp7 {
+    font-size: 12px;
+    height: 87px;
+    left: 214px;
+    line-height: 24px;
+    position: absolute;
+    top: 1314px;
+    width: 714px;
+}
+.scrn6 .sp8 {
+    font-size: 12px;
+    height: 100px;
+    left: 229px;
+    line-height: 24px;
+    position: absolute;
+    top: 1423px;
+    width: 263px;
+}
+.scrn6 .sp9 {
+    font-size: 12px;
+    height: 100px;
+    left: 674px;
+    line-height: 24px;
+    position: absolute;
+    top: 1423px;
+    width: 253px;
+}
+.scrn7{
+    height: 1630px;
+    position: relative;
+    width: 1000px;
+}
+.scrn7 .ef1 {
+    font-size: 12px;
+    height: 200px;
+    left: 32px;
+    line-height: 24px;
+    position: absolute;
+    top: 97px;
+    width: 338px;
+}
+.scrn7 .ef2{
+    font-size: 12px;
+    height: 50px;
+    left: 354px;
+    line-height: 18px;
+    position: absolute;
+    top: 384px;
+    width: 623px;
+}
+.scrn7 .ef3 {
+    font-size: 12px;
+    height: 30px;
+    left: 353px;
+    line-height: 18px;
+    position: absolute;
+    top: 444px;
+    width: 623px;
+}
+.scrn7 .ef4 {
+    font-size: 12px;
+    height: 50px;
+    left: 352px;
+    line-height: 18px;
+    position: absolute;
+    top: 484px;
+    width: 605px;
+}
+.scrn7 .ef5 {
+    font-size: 12px;
+    height: 50px;
+    left: 352px;
+    line-height: 18px;
+    position: absolute;
+    top: 523px;
+    width: 605px;
+}
+.scrn7 .ef6 {
+    font-size: 12px;
+    height: 50px;
+    left: 180px;
+    line-height: 24px;
+    position: absolute;
+    top: 685px;
+    width: 767px;
+}
+.scrn7 .ef7 {
+    font-size: 12px;
+    height: 50px;
+    left: 50px;
+    line-height: 24px;
+    position: absolute;
+    top: 795px;
+    width: 767px;
+}
+.scrn7 .ef8 {
+    font-size: 12px;
+    height: 50px;
+    left: 180px;
+    line-height: 24px;
+    position: absolute;
+    top: 915px;
+    width: 767px;
+}
+.scrn7 .ef9 {
+    font-size: 12px;
+    height: 50px;
+    left: 50px;
+    line-height: 24px;
+    position: absolute;
+    top: 1033px;
+    width: 756px;
+}
+.scrn7 .ef10 {
+    font-size: 12px;
+    height: 150px;
+    left: 242px;
+    line-height: 18px;
+    position: absolute;
+    top: 1248px;
+    width: 256px;
+}
+.scrn7 .ef11 {
+    font-size: 12px;
+    height: 150px;
+    left: 712px;
+    line-height: 18px;
+    position: absolute;
+    top: 1248px;
+    width: 256px;
+}
+.scrn7 .ef12 {
+    font-size: 12px;
+    height: 150px;
+    left: 242px;
+    line-height: 18px;
+    position: absolute;
+    top: 1468px;
+    width: 256px;
+}
+.scrn7 .ef13 {
+    font-size: 12px;
+    height: 150px;
+    left: 712px;
+    line-height: 18px;
+    position: absolute;
+    top: 1468px;
+    width: 256px;
+}
+.scrn8{
+    height: 2160px;
+    position: relative;
+    width: 1000px;
+}
+.scrn8 .buy1 {
+    display: block;
+    height: 50px;
+    left: 900px;
+    position: absolute;
+    top: 40px;
+    width: 90px;
+}
+.scrn8 .buy2 {
+    display: block;
+    height: 50px;
+    left: 900px;
+    position: absolute;
+    top: 310px;
+    width: 90px;
+}
+.scrn8 .buy3 {
+    display: block;
+    height: 50px;
+    left: 900px;
+    position: absolute;
+    top: 580px;
+    width: 90px;
+}
+.scrn8 .ask1 {
+    display: block;
+    height: 54px;
+    left: 759px;
+    position: absolute;
+    top: 195px;
+    width: 152px;
+}
+.scrn8 .ask2 {
+    display: block;
+    height: 54px;
+    left: 759px;
+    position: absolute;
+    top: 465px;
+    width: 152px;
+}
+.scrn8 .ask3 {
+    display: block;
+    height: 54px;
+    left: 759px;
+    position: absolute;
+    top: 735px;
+    width: 152px;
+}
+.scrn8 .info1 {
+    font-size: 12px;
+    height: 250px;
+    left: 20px;
+    position: absolute;
+    top: 830px;
+    width: 300px;
+}
+.scrn8 .info2 {
+    font-size: 12px;
+    height: 250px;
+    left: 350px;
+    position: absolute;
+    top: 830px;
+    width: 300px;
+}
+.scrn8 .info3 {
+    font-size: 12px;
+    height: 250px;
+    left: 680px;
+    position: absolute;
+    top: 830px;
+    width: 300px;
+}
+.scrn8 .infos .title {
+    color: #087828;
+    font-size: 14px;
+    font-weight: bold;
+    left: 14px;
+    position: absolute;
+    top: 13px;
+}
+.scrn8 .infos .more{
+	position:absolute;
+	right:10px;
+	top:15px;
+}
+.scrn8 .infos .cont {
+    left: 10px;
+    line-height: 24px;
+    position: absolute;
+    top: 47px;
+    font-family: caption;
+}
+.scrn8 .cmmt {
+    height: 300px;
+    position: absolute;
+    top: 1157px;
+    width:1000px;
+}
+.scrn8 .cmmt .cmmtline{
+    height: 88px;
+    position: relative;
+}
+.scrn8 .cmmt .cmmtline a.photo{
+    position: absolute;
+	left:30px;
+	top:5px;
+	font-size:12px;
+	text-align:center;
+}
+.scrn8 .cmmt .cmmtline div.score{
+    font-size: 12px;
+    left: 135px;
+    position: absolute;
+    text-align: center;
+    top: 10px;
+}
+.scrn8 .cmmt .cmmtline div.content {
+    font-size: 12px;
+    height: 40px;
+    left: 135px;
+    overflow: hidden;
+    position: absolute;
+    text-align: left;
+    top: 40px;
+    line-height:18px;
+    width:700px;
+}
+.scrn8 .cmmt .cmmtline div.dt {
+    font-size: 12px;
+    height: 40px;
+    left: 820px;
+    line-height: 18px;
+    overflow: hidden;
+    position: absolute;
+    top: 10px;
+    width: 120px;
+}
+.scrn8 .cmmt .pager{
+	right:50px;
+	text-align:right;
+	width:400px;
+    position: absolute;
+    height:30px;
+    top:270px;
+}
+.scrn8 .cmmt .pager a{
+	display:block;
+	margin-right:10px;
+	float:right;
+	font-size:12px;
+	border:1px solid #cccccc;
+	padding:3px 8px;
+}
+.scrn8 .desc1{
+    font-size: 12px;
+    height: 250px;
+    left: 37px;
+    line-height: 24px;
+    position: absolute;
+    top: 1828px;
+    width: 456px;
+}
+.scrn8 .desc2 {
+    font-size: 12px;
+    height: 350px;
+    left: 557px;
+    line-height: 30px;
+    position: absolute;
+    top: 1825px;
+    width: 416px;
+}
+.foot{
+    height: 170px;
+    position: relative;
+    width: 1000px;
+}
+.foot .text {
+    color: #000000;
+    font-size: 12px;
+    line-height: 24px;
+    margin-right: 37px;
+    padding-left: 0;
+    padding-top: 14px;
+    text-align: center;
+    width: 1000px;
+}
